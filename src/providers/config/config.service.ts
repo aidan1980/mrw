@@ -29,9 +29,9 @@ if (localStorage.languageCode == undefined) {
 
 export class ConfigService {
 
-  public url: string = 'http://your-site-url';
-  public consumerKey: string = 'your-consumer-key';
-  public consumerSecret: string = 'your-consumer-secret';
+  public url: string = 'https://mrweedeliver.co.za';
+  public consumerKey: string = 'ck_0720e1b72cba062d24874c4ae4e6ea6661b573e8';
+  public consumerSecret: string = 'cs_6ff719b7a5aff90dfcacc68a0a6d61fedaabbbf4';
 
 
 
