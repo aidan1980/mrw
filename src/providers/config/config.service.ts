@@ -17,7 +17,7 @@ declare var WooCommerceAPI: any;
 if (localStorage.languageCode == undefined) {
   localStorage.languageCode = "en"; //default language code
   localStorage.languageDirection = "ltr"; //default language direction of app
-  localStorage.currency = "&#36;";  //default currecny html code to show in app.
+  localStorage.currency = "R";  //default currecny html code to show in app.
   // Please visit this link to get your html code  https://html-css-js.com/html/character-codes/currency/
   localStorage.currencyCode = "ZAR";  //default currency code
   localStorage.currencyPos = "left";  //default currency position
