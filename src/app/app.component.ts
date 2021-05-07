@@ -40,7 +40,7 @@ export class AppComponent {
       name: 'Home',
       icon: 'home',
       url: 'home',
-      img: 'assets/left-menu-icon/home.png',
+      img: 'assets/icons-01.svg',
       items: [
         { name: "1", url: '/home', },
         { name: "2", url: '/home2', },
