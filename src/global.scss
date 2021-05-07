@@ -37,6 +37,15 @@
   --ion-font-family: "Roboto", "noto-sans";
   font-family: var(--ion-font-family) !important;
 }
+
+.toolbar-container {
+    padding-left: unset;
+    padding-right: unset;
+    padding-inline-start: var(--padding-start);
+    padding-inline-end: var(--padding-end);
+    height: 60px;
+}
+
 ion-header {
   ion-toolbar {
     --background: var(--ion-color-primary);

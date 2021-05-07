@@ -1,0 +1,8 @@
+.home-page-1 .swiper-slide {
+  width: 40%; }
+.home-page-1 ion-segment ion-segment-button {
+  font-size: 0.75rem; }
+.home-page-1 ion-slides ion-slide:last-child {
+  height: auto; }
+.home-page-1 app-product {
+  width: 100%; }
