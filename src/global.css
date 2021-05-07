@@ -39,7 +39,7 @@
   height: 60px; }
 
 ion-header ion-toolbar {
-  --background: var(--ion-color-primary);
+  --background: #000000;
   --color: var(--ion-color-primary-contrast); }
   ion-header ion-toolbar ion-title ion-img {
     height: 40px; }
