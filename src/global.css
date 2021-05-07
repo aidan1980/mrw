@@ -38,6 +38,18 @@
   padding-inline-end: var(--padding-end);
   height: 60px; }
 
+
+toolbar-container {
+    --background: #000;
+    --background-focused: var(--ion-tab-bar-background-focused,#e0e0e0);
+    --border: 0.55px solid var(--ion-tab-bar-border-color,var(--ion-border-color,var(--ion-color-step-150,rgba(0,0,0,0.2))));
+    --color: var(--ion-tab-bar-color,var(--ion-color-step-400,#FFF));
+    --color-selected: var(--ion-tab-bar-color-selected,var(--ion-color-primary,#3880ff));
+    --height: 50px;
+    --padding-top: 10px;
+}
+
+
 ion-header ion-toolbar {
   --background: #000000;
   --color: var(--ion-color-primary-contrast); }
