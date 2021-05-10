@@ -59,7 +59,7 @@ export class AppComponent {
       name: 'Categories',
       icon: 'apps',
       url: 'categories/0/0',
-      img: 'assets/left-menu-icon/category.png',
+      img: 'assets/icons-02.svg',
       items: [
         { name: "1", url: '/categories/0/0' },
         { name: "2", url: '/categories2/0/0' },
@@ -83,7 +83,7 @@ export class AppComponent {
     },
   ];
   a2 = [
-    { name: 'Home', icon: 'home', url: 'home', img: 'assets/left-menu-icon/home.png' },
+    { name: 'Home', icon: 'home', url: 'home', img: 'assets/icons-01.svg' },
     { name: 'Categories', icon: 'apps', url: 'categories', img: 'assets/left-menu-icon/category.png' },
     {
       name: 'Shop', icon: 'cash', url: '/products', img: 'assets/left-menu-icon/shop.png',

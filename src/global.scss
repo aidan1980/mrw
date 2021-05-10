@@ -83,7 +83,7 @@ ion-content {
   }
 }
 .top-icon-header {
-  padding-top: 10px;
+  padding-top: 20px;
   ion-button {
     text-transform: capitalize;
     --padding-start: 7px;
@@ -211,6 +211,7 @@ ion-radio {
     ion-tab-button {
       // --color: #aaa;
       --color-selected: var(--ion-color-primary);
+      background-color: #000000;
     }
   }
 }
@@ -221,6 +222,8 @@ ion-radio {
     ion-tab-button {
       // --color: #aaa;
       --color-selected: var(--ion-color-primary);
+      background: #000000;
+      color: #ffffff;
     }
   }
 }

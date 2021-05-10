@@ -1,29 +1,30 @@
-<ion-tabs style="background-color: #000000;" #appTabs >
+<div style="background-color: #000000">
+<ion-tabs #appTabs >
   <ion-tab-bar slot="bottom" (click)="ionChange(appTabs)">
     <ion-tab-button tab="{{config.getCurrentHomePage()}}">
       <img *ngIf="showImg()" src="assets/icons-01.svg">
-      <ion-icon *ngIf="!showImg()" name="home"></ion-icon>
+      <ion-icon *ngIf="!showImg()" src="/assets/icons-01.svg" name="home"></ion-icon>
       <ion-label>
         <b>{{'Home'|translate}}</b>
       </ion-label>
     </ion-tab-button>
     <ion-tab-button tab="search">
       <img *ngIf="showImg()" src="assets/icons-02.svg">
-      <ion-icon *ngIf="!showImg()" name="search"></ion-icon>
+      <ion-icon *ngIf="!showImg()" src="/assets/icons-02.svg" name="search"></ion-icon>
       <ion-label>
         <b>{{'Search'|translate}}</b>
       </ion-label>
     </ion-tab-button>
     <ion-tab-button tab="{{config.getCurrentCategoriesPage()}}">
       <img *ngIf="showImg()" style="width: 40%;" src="assets/icons-03.svg">
-      <ion-icon *ngIf="!showImg()" name="apps"></ion-icon>
+      <ion-icon *ngIf="!showImg()" src="/assets/icons-03.svg" name="apps"></ion-icon>
       <ion-label>
         <b>{{'Categories'|translate}}</b>
       </ion-label>
     </ion-tab-button>
     <ion-tab-button tab="cart">
       <img *ngIf="showImg()" src="assets/assets/icons-04.svg">
-      <ion-icon *ngIf="!showImg()" name="basket"></ion-icon>
+      <ion-icon *ngIf="!showImg()" src="/assets/icons-04.svg" name="basket"></ion-icon>
       <ion-badge mode="ios" color="secondary" [class.bag-fix]="showImg()">{{shared.cartTotalItems()}}</ion-badge>
       <ion-label>
         <b>{{'My Cart'|translate}}</b>
@@ -31,7 +32,7 @@
     </ion-tab-button>
     <ion-tab-button tab="settings">
       <img *ngIf="showImg()" src="assets/assets/icons-05.svg">
-      <ion-icon *ngIf="!showImg()" name="person"></ion-icon>
+      <ion-icon *ngIf="!showImg()" src="/assets/icons-05.svg" name="person"></ion-icon>
       <ion-label>
         <b>{{'Account'|translate}}</b>
       </ion-label>
@@ -39,3 +40,4 @@
   </ion-tab-bar>
 
 </ion-tabs>
+</div>
