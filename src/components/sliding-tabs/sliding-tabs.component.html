@@ -1,4 +1,4 @@
-<div class="sliding-tabs">
+<div style="background-color: #000000" class="sliding-tabs">
   <ion-slides *ngIf="type!='image'" [options]="sliderConfig">
     <ion-slide class="first-slide" [class.selected]="selected==0" *ngIf="shared.allCategories!=null"
       (click)="changeTab('0')">
